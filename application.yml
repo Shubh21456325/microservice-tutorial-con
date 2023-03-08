@@ -1,3 +1,9 @@
 spring:
  application:
-  name:
+  name: true
+
+client:
+ fetch-registry:
+  register- with-eureka:
+  service-url:
+    default: http://localhost:8761/eureka
